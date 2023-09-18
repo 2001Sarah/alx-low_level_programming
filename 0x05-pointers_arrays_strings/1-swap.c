@@ -6,13 +6,13 @@
  *@b: swaps and stores address of a
  * Return: 0
  */
-void Swap_int(int *a, int "b)
+void Swap_int(int *a, int *b);
 {
 int swap;
 
 change = b;
 
-"b = "a;
+*b = *a;
 
-"a change;
+*a change;
 }

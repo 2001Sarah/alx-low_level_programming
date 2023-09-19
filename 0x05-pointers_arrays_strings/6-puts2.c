@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts2 - Prints all string character starting with the first character
+ * puts2 - Prints other string character starting with the first character
  * @str: Pointer to a string
  *
  * Return: void

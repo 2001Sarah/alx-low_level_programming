@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+
+// file1.c
+
+void function_one()
+{
+printf("This is function one.\n");
+}
+// file2.c
+#include "main.h"
+#include <stdio.h>
+
+void function_two()
+{
+printf("This is function two.\n");
+}
+
+// myprogram.c
+#include"main.h"
+#include <stdio.h>
+
+void function_one();
+void function_two();
+
+int main() {
+function_one();
+function_two();
+return(0);
+}
